@@ -199,4 +199,7 @@ los propietarios del repositorio revisen tus cambios y los incorporen al proyect
 introducción básica, pero te animamos a explorar más a fondo cada uno de los temas mencionados y a utilizar las
 numerosas características adicionales que ofrecen estas herramientas.
 
-Happy coding!
+Happy coding! 🚀
+---
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
