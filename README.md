@@ -22,7 +22,7 @@
    1. [Crear un repositorio en GitHub](#crear-un-repositorio-en-github)
    2. [Conectar repositorio local con repositorio remoto](#conectar-repositorio-local-con-repositorio-remoto)
    3. [Publicar un repositorio desde GitHub Desktop](#publicar-un-repositorio-desde-github-desktop)
-   4. [Enviar cambios a un repositorio remoto (push)](#enviar-cambios-a-un-repositorio-remoto-push)
+   4. [Enviar cambios a GitHub (push)](#enviar-cambios-a-github-push)
    5. [Obtener cambios del repositorio remoto (pull)](#obtener-cambios-del-repositorio-remoto-pull)
    6. [Solicitar una fusión de código (pull request)](#solicitar-una-fusión-de-código-pull-request)
 
