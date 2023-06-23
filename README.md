@@ -73,26 +73,25 @@
 
 ### **Configuración de Git**
 
-#### Desde Consola
+- Desde Consola:
+   <p align="justify">
+      Abre una terminal o línea de comandos y ejecuta los siguientes comandos para configurar tu nombre de usuario y dirección de correo electrónico:
+   </p>
 
-<p align="justify">
-   Abre una terminal o línea de comandos y ejecuta los siguientes comandos para configurar tu nombre de usuario y dirección de correo electrónico:
-</p>
+   ```bash
+   $ git config --global user.name "Tu Nombre"
+   $ git config --global user.email "tu@email.com"
+   ```
 
-```bash
-$ git config --global user.name "Tu Nombre"
-$ git config --global user.email "tu@email.com"
-```
+- Desde GitHub Desktop:
 
-#### Desde GitHub Desktop
+   <p align="justify">
+      Seleccione el menu de opciones en su apartado Git para configurar tu nombre de usuario y dirección de correo electrónico:
+   </p>
 
-<p align="justify">
-   Seleccione el menu de opciones en su apartado Git para configurar tu nombre de usuario y dirección de correo electrónico:
-</p>
-
-<div align="center">
-   <img style="height: 400px" src="https://i.imgur.com/wFw2jQA.png" alt="Configuracion">
-</div>
+   <div align="left">
+      <img style="height: 400px" src="https://i.imgur.com/wFw2jQA.png" alt="Configuracion">
+   </div>
 
 ## **Estados de un Archivo** 📂️
 
@@ -102,7 +101,7 @@ $ git config --global user.email "tu@email.com"
 - **Committed:** Archivo que ha sido modificado, añadido al área de preparación y confirmado en el repositorio.
 - **Pushed:** Archivo que ha sido modificado, añadido al área de preparación, confirmado en el repositorio y enviado al repositorio remoto.
 
-<div align="center">
+<div align="left">
    <img style="height: 200px" src="https://i.imgur.com/Za8NF7S.png" alt="file-status">
 </div>
 
@@ -118,25 +117,25 @@ $ git config --global user.email "tu@email.com"
    Para comenzar a utilizar Git en un proyecto existente o en uno nuevo, debemos inicializar un repositorio.
 </p>
 
-#### Desde Consola
+- Desde Consola:
 
-<p align="justify">
-   Ejecuta el siguiente comando en la terminal en la ubicación de tu proyecto:
-</p>
+   <p align="justify">
+      Ejecuta el siguiente comando en la terminal en la ubicación de tu proyecto:
+   </p>
 
-```bash
-$ git init
-```
+   ```bash
+   $ git init
+   ```
 
-#### Desde GitHub Desktop
+- Desde GitHub Desktop:
 
-<p align="justify">
-   Deberas de elegir la opcion de "Crear un nuevo repositorio en tu disco duro..." donde deberas llenar todos los campos correspondientes:
-</p>
+   <p align="justify">
+      Deberas de elegir la opcion de "Crear un nuevo repositorio en tu disco duro..." donde deberas llenar todos los campos correspondientes:
+   </p>
 
-<div align="center">
-   <img style="height: 400px" src="https://i.imgur.com/SoYyaQK.png" alt="Repositorio">
-</div>
+   <div align="left">
+      <img style="height: 400px" src="https://i.imgur.com/SoYyaQK.png" alt="Repositorio">
+   </div>
 
 ### **Realizar un commit**
 
@@ -144,39 +143,39 @@ $ git init
    Un commit es una confirmación de cambios en el repositorio. Para realizar un commit, debemos seguir estos pasos:
 </p>
 
-<div align="center">
+<div align="left">
    <img style="height: 180px" src="https://i.imgur.com/VGdb7NE.png" alt="GitFlow">
 </div>
 
 > No puedes usar **commit** si antes no has añadido los archivos con **add**.
 
-#### Desde Consola
+- Desde Consola:
 
-1. Agrega los archivos modificados al área de preparación:
+   1. Agrega los archivos modificados al área de preparación:
 
-```bash
-$ git add nombre_archivo
-```
+   ```bash
+   $ git add nombre_archivo
+   ```
 
-2. Realiza el commit con un mensaje descriptivo:
+   2. Realiza el commit con un mensaje descriptivo:
 
-```bash
-$ git commit -m "Mensaje descriptivo del commit"
-```
+   ```bash
+   $ git commit -m "Mensaje descriptivo del commit"
+   ```
 
-#### Desde GitHub Desktop
+- Desde GitHub Desktop:
 
-1. Selecciona los archivos modificados:
+   1. Selecciona los archivos modificados:
 
-<div align="center">
-   <img style="height: 100px" src="https://i.imgur.com/IZJoC7W.png" alt="Add">
-</div>
+   <div align="left">
+      <img style="height: 100px" src="https://i.imgur.com/IZJoC7W.png" alt="Add">
+   </div>
 
-2. Realiza el commit con un mensaje descriptivo y opcionalmente agregale una descripción:
+   2. Realiza el commit con un mensaje descriptivo y opcionalmente agregale una descripción:
 
-<div align="center">
-   <img style="height: 200px" src="https://i.imgur.com/pJZgnmU.png" alt="Commit">
-</div>
+   <div align="left">
+      <img style="height: 200px" src="https://i.imgur.com/pJZgnmU.png" alt="Commit">
+   </div>
 
 ### **Crear una rama (branch)**
 
@@ -184,25 +183,25 @@ $ git commit -m "Mensaje descriptivo del commit"
    Las ramas te permiten realizar cambios sin afectar la rama principal (Main). Un ejemplo de esto es al encontrar bugs en alguna versión entras a Hotfix, entonces se crea una nueva rama donde realias los cambios y los pruebas con la versión actual del Main.
 </p>
 
-#### En Consola
+- En Consola:
 
-<p align="justify">
-   Si deseas crear una rama, ejecuta el siguiente comando:
-</p>
+   <p align="justify">
+      Si deseas crear una rama, ejecuta el siguiente comando:
+   </p>
 
-```bash
-$ git branch nombre_rama
-```
+   ```bash
+   $ git branch nombre_rama
+   ```
 
-#### En GitHub Desktop
+- En GitHub Desktop:
 
-<p align="justify">
-   Deberas de elegir la opcion "New Branch" dentro del dropdown de "Current Branch" llenando el campo requerido de nombre:
-</p>
+   <p align="justify">
+      Deberas de elegir la opcion "New Branch" dentro del dropdown de "Current Branch" llenando el campo requerido de nombre:
+   </p>
 
-<div align="center">
-   <img style="height: 200px" src="https://i.imgur.com/MmoCo1T.png" alt="Branch">
-</div>
+   <div align="left">
+      <img style="height: 200px" src="https://i.imgur.com/MmoCo1T.png" alt="Branch">
+   </div>
 
 ### **Cambiar de rama (checkout)**
 
@@ -210,48 +209,62 @@ $ git branch nombre_rama
    El comando checkout se utiliza para cambiar entre ramas existentes.
 </p>
 
-#### En Consola
+- En Consola:
 
-<p align="justify">
-   Si deseas cambiar a una rama específica, ejecuta el siguiente comando:
-</p>
+   <p align="justify">
+      Si deseas cambiar a una rama específica, ejecuta el siguiente comando:
+   </p>
 
-```bash
-$ git checkout nombre_rama
-```
+   ```bash
+   $ git checkout nombre_rama
+   ```
 
-#### En GitHub Desktop
+- En GitHub Desktop:
 
-<p align="justify">
-   Deberas de seleccionar el dropdown de "Current Branch" para ver el listado de ramas de tu proyecto. Luego, darle click a la rama que quieres cambiar y elegir la opcion de tu preferencia:
-</p>
+   <p align="justify">
+      Deberas de seleccionar el dropdown de "Current Branch" para ver el listado de ramas de tu proyecto. Luego, darle click a la rama que quieres cambiar y elegir la opcion de tu preferencia:
+   </p>
 
-<div align="center">
-   <img style="height: 200px" src=https://i.imgur.com/yNuM6dT.png" alt="Branch">
-</div>
-
-<div align="right">
-   <img style="height: 200px" src=https://i.imgur.com/yNuM6dT.png" alt="Branch">
-</div>
+   <div align="left">
+      <img style="height: 200px" src=https://i.imgur.com/yNuM6dT.png" alt="Branch">
+      <img style="height: 200px" src=https://i.imgur.com/dJxQZV1.png" alt="Branch">
+   </div>
 
 ### **Fusionar ramas (merge)**
 
 <p align="justify">
-   La funcionalidad de fusionar ramas permite combinar los cambios de una rama con otra. Utiliza el siguiente comando para fusionar una rama en la rama actual:
+   La funcionalidad de fusionar ramas permite combinar los cambios de una rama con otra.
 </p>
 
-```bash
-$ git merge nombre_rama
-```
-
-<div align="center">
+<div align="left">
    <img style="height: 180px" src="https://i.imgur.com/ldv7Qv4.png" alt="Merge">
 </div>
 
+- En Consola:
+
+   <p align="justify">
+      Utiliza el siguiente comando para fusionar una rama en la rama actual:
+   </p>
+
+   ```bash
+   $ git merge nombre_rama
+   ```
+
+- En GitHub Desktop:
+
+   <p align="justify">
+      Deberas de seleccionar el dropdown de "Current Branch" para ver el listado de ramas de tu proyecto. Luego, darle click a "Choose a branch to merge into rama" para luego crear un merge commit:
+   </p>
+
+   <div align="left">
+      <img style="height: 350px" src=https://i.imgur.com/mmsFhCS.png" alt="Branch">
+   </div>
+
 ## **Trabajando con GitHub** 🤝
 
-En esta sección, aprenderemos cómo utilizar GitHub para colaborar en proyectos y aprovechar sus características
-adicionales.
+<p align="justify">
+   En esta sección, aprenderemos cómo utilizar GitHub para colaborar en proyectos y aprovechar sus características adicionales.
+</p>
 
 ### **Crear un repositorio en GitHub**
 
@@ -262,51 +275,86 @@ adicionales.
 
 ### **Conectar repositorio local con repositorio remoto**
 
-Para conectar tu repositorio local con el repositorio remoto en GitHub, utiliza el siguiente comando:
+<p align="justify">
+   Para conectar tu repositorio local con el repositorio remoto en GitHub, utiliza el siguiente comando:
+</p>
 
 ```bash
 $ git remote add nombre_remoto url_remoto
 ```
 
-### **Enviar cambios a un repositorio remoto (push)**
+### **Publicar un repositorio desde GitHub Desktop**
 
 <p align="justify">
-   Para enviar tus cambios locales a un repositorio remoto, utiliza el comando push:
+   El hecho de crear un repositorio se facilita desde la aplicación de GitHub Desktop. Pues, solamente es seleccionar la opción de "Publish Repository" y llenar los campos necesarios:
 </p>
 
-```bash
-$ git push nombre_remoto nombre_rama
-```
+<div align="left">
+   <img style="height: 180px" src=https://i.imgur.com/wDu57AZ.png" alt="publish-main">
+   <img style="height: 250px" src=https://i.imgur.com/moerwIR.png" alt="publish">
+</div>
+
+### **Enviar cambios a GitHub (push)**
+
+Una vez que hayas realizado los commits locales, puedes enviar tus cambios al repositorio remoto en GitHub.
+
+- Desde Consola:
+
+   <p align="justify">
+      Se utiliza el comando push:
+   </p>
+
+   ```bash
+   $ git push nombre_remoto nombre_rama
+   ```
+
+- Desde GitHub Desktop:
+
+   <p align="justify">
+      Se selecciona la opcion de "Push Origin" desde la ventana principal:
+   </p>
+
+   <div align="left">
+      <img style="height: 50px" src=https://i.imgur.com/Qei6EOb.png" alt="push">
+   </div>
 
 ### **Obtener cambios del repositorio remoto (pull)**
 
 <p align="justify">
-   Si otros colaboradores han realizado cambios en el repositorio remoto, puedes obtener esos cambios y fusionarlos con tu rama local utilizando el comando pull:
+   Si otros colaboradores han realizado cambios en el repositorio remoto, puedes obtener esos cambios y fusionarlos con tu rama local.
 </p>
 
-```bash
-$ git pull nombre_remoto nombre_rama
-```
+- Desde Consola:
 
-### **Enviar cambios a GitHub (push)**
+   <p align="justify">
+      Se utiliza el comando pull:
+   </p>
 
-Una vez que hayas realizado los commits locales, puedes enviar tus cambios al repositorio remoto en GitHub utilizando el
-comando push:
+   ```bash
+   $ git pull nombre_remoto nombre_rama
+   ```
 
-```bash
-$ git push nombre_remoto nombre_rama
-```
+- Desde GitHub Desktop:
+
+   <p align="justify">
+      Se selecciona la opcion de "Pull Origin" desde la ventana principal:
+   </p>
+
+   <div align="left">
+      <img style="height: 50px" src=https://i.imgur.com/wnZ8ijd.png" alt="pull">
+   </div>
 
 ### **Solicitar una fusión de código (pull request)**
 
-Si deseas contribuir a un proyecto en GitHub, puedes enviar una solicitud de fusión de código (pull request) para que
-los propietarios del repositorio revisen tus cambios y los incorporen al proyecto principal.
+<p align="justify">
+   Si deseas contribuir a un proyecto en GitHub, puedes enviar una solicitud de fusión de código (pull request) para que los propietarios del repositorio revisen tus cambios y los incorporen al proyecto principal.
+</p>
 
 ---
 
-¡Felicidades! Ahora tienes una base sólida para comenzar a utilizar Git y GitHub. Este documento solo proporciona una
-introducción básica, pero te animamos a explorar más a fondo cada uno de los temas mencionados y a utilizar las
-numerosas características adicionales que ofrecen estas herramientas.
+<p align="justify">
+   ¡Felicidades! Ahora tienes una base sólida para comenzar a utilizar Git y GitHub. Este documento solo proporciona una introducción básica, pero te animamos a explorar más a fondo cada uno de los temas mencionados y a utilizar las numerosas características adicionales que ofrecen estas herramientas.
+</p>
 
 Happy coding! 🚀
 ----------------
