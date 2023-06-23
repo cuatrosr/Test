@@ -355,7 +355,23 @@ Una vez que hayas realizado los commits locales, puedes enviar tus cambios al re
 ### **Solicitar una fusión de código (pull request)**
 
 <p align="justify">
-   Si deseas contribuir a un proyecto en GitHub, puedes enviar una solicitud de fusión de código (pull request) para que los propietarios del repositorio revisen tus cambios y los incorporen al proyecto principal.
+   Si deseas contribuir a un proyecto en GitHub, puedes enviar una solicitud de fusión de código (pull request) para que los propietarios del repositorio revisen tus cambios y los incorporen al proyecto principal. Debes hacerlo desde GitHub
+</p>
+
+<div align="left">
+   <img style="height: 50px" src=https://i.imgur.com/BXg5Fry.png" alt="pull-request">
+</div>
+
+<p align="justify">
+   Para crear un pull request hay que dar clic en “Compare & pull request”
+</p>
+
+<div align="left">
+   <img style="height: 600px" src=https://i.imgur.com/kbM6e9e.png" alt="pull-request-github">
+</div>
+
+<p align="justify">
+   Una vez creado, el administrador del proyecto recibirá una notificación. 
 </p>
 
 ---
