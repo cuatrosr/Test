@@ -138,7 +138,7 @@
 - Desde GitHub Desktop:
 
    <p align="justify">
-      Deberas de elegir la opcion de "Crear un nuevo repositorio en tu disco duro..." donde deberas llenar todos los campos correspondientes:
+      Deberas de elegir la opción de "Crear un nuevo repositorio en tu disco duro..." donde deberas llenar todos los campos correspondientes:
    </p>
 
    <div align="left">
@@ -204,7 +204,7 @@
 - En GitHub Desktop:
 
    <p align="justify">
-      Deberas de elegir la opcion "New Branch" dentro del dropdown de "Current Branch" llenando el campo requerido de nombre:
+      Deberas de elegir la opción "New Branch" dentro del dropdown de "Current Branch" llenando el campo requerido de nombre:
    </p>
 
    <div align="left">
@@ -230,7 +230,7 @@
 - En GitHub Desktop:
 
    <p align="justify">
-      Deberas de seleccionar el dropdown de "Current Branch" para ver el listado de ramas de tu proyecto. Luego, darle click a la rama que quieres cambiar y elegir la opcion de tu preferencia:
+      Deberas de seleccionar el dropdown de "Current Branch" para ver el listado de ramas de tu proyecto. Luego, darle click a la rama que quieres cambiar y elegir la opción de tu preferencia:
    </p>
 
    <div align="left">
@@ -319,7 +319,7 @@ Una vez que hayas realizado los commits locales, puedes enviar tus cambios al re
 - Desde GitHub Desktop:
 
    <p align="justify">
-      Se selecciona la opcion de "Push Origin" desde la ventana principal:
+      Se selecciona la opción de "Push Origin" desde la ventana principal:
    </p>
 
    <div align="left">
@@ -345,7 +345,7 @@ Una vez que hayas realizado los commits locales, puedes enviar tus cambios al re
 - Desde GitHub Desktop:
 
    <p align="justify">
-      Se selecciona la opcion de "Pull Origin" desde la ventana principal:
+      Se selecciona la opción de "Pull Origin" desde la ventana principal:
    </p>
 
    <div align="left">
